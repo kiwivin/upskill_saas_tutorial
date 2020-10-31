@@ -43,10 +43,6 @@ GEM
       execjs
     bcrypt (3.1.16)
     bindex (0.8.1)
-    bitpay-key-utils (2.2.1905)
-      ecdsa (~> 1.2)
-    bitpay-sdk (2.5.1905)
-      bitpay-key-utils (>= 2.2)
     bootstrap-sass (3.3.7)
       autoprefixer-rails (>= 5.2.1)
       sass (>= 3.3.4)
@@ -69,7 +65,6 @@ GEM
       warden (~> 1.2.3)
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
-    ecdsa (1.2.0)
     erubis (2.7.0)
     execjs (2.7.0)
     ffi (1.13.1)
@@ -206,7 +201,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bitpay-sdk
   bootstrap-sass (= 3.3.7)
   byebug
   coffee-rails (= 4.2.1)
